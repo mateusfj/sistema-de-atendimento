@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Form from './Form';
+
+
+/*Desenvolva um sistema para organizar os atendimentos em uma clínica.
+Quando um paciente chega, a atendente pergunta o nome do paciente e qual especialidade médica ele precisa:
+Ortopedia, Cardiologia ou Psiquiatria.
+Os pacientes são adicionados a uma fila de espera visível.
+O atendente pode clicar em um botão para chamar o próximo paciente da fila de Ortopedia, Cardiologia ou Psiquiatria para atendimento, fazendo com que os outros pacientes na fila avancem uma posição.*/
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Form/>
     </div>
   );
 }

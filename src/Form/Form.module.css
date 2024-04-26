@@ -1,0 +1,12 @@
+.dados {padding: 0 68px;}
+.dados .titulo{ text-align: center; margin-top: 20px;}
+.dados form{display: flex; flex-direction: column;justify-content: center; align-items: center; padding:20px;}
+.dados form input{width: 410px;  height: 30px; padding:0 5px; margin:10px;border-radius: 4px;}
+.dados form label{}
+.dados form select{width: 410px; margin:10px; height: 30px; padding:0 5px; border-radius: 4px;}
+.dados form button{width: 200px; height: 30px; border-radius: 4px; color: white; background-color: rgba(0, 0, 255, 0.592); border:none;}
+.dados .title{text-align: center; color: rgba(0, 0, 255, 0.592);}
+.dados .categoria{display: flex;}
+.dados .btnProximo{border: none; background-color: #31AC47; color: white; border-radius: 4px; padding:5px 14px; margin: 10px 0;}
+.dados .atendimento{margin-left: 100px;}
+.dados .listaConsulta{min-height: 100px;}
